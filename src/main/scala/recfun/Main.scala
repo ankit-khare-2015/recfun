@@ -38,14 +38,12 @@ object Main {
             else {
               val openBracket = if (head != 41) check(head, open) else open
               val closeBracket = if (head != 40) check(head, close) else close
-              balanceChar(
+              val isOk =
                 if (openBracket == closeBracket) true
                 else if (closeBracket > openBracket || closeBracket != openBracket)
                   false
-                else false,
-                openBracket,
-                closeBracket,
-                charList.tail)
+                else false
+              balanceChar(isOk, openBracket, closeBracket, charList.tail)
             }
           }
         }
