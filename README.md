@@ -1,8 +1,3 @@
-# ScalaRoots
-
-Welcome to **ScalaRoots** – a learning repository based on functional programming exercises in Scala.
-
-This project is built from the **École Polytechnique Fédérale de Lausanne (EPFL)** coursework and LinkedIn Learning content for beginners in **functional programming** using Scala.
 
 ---
 
